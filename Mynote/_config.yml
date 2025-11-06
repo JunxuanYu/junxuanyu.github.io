@@ -1,0 +1,20 @@
+title: 个人笔记网站
+description: 我的学习笔记和知识积累
+
+# GitHub Pages配置
+remote_theme: pages-themes/cayman@v0.2.0
+plugins:
+  - jekyll-remote-theme # 添加这个插件以支持remote_theme
+
+# 网站设置
+display_github: true
+github_username: your-username
+github_repo: your-repo-name
+github_branch: main
+
+# 自定义导航菜单
+nav:
+  - title: 首页
+    url: /
+  - title: 笔记
+    url: /notes/

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人笔记网站</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>个人笔记</h1>
+        <p>我的知识积累与思考</p>
+    </header>
+
+    <main>
+        <aside class="sidebar">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="搜索笔记...">
+            </div>
+            <nav>
+                <h2>笔记列表</h2>
+                <ul id="notes-list">
+                    <!-- 笔记列表将通过JavaScript动态生成 -->
+                </ul>
+            </nav>
+        </aside>
+
+        <section class="content">
+            <div id="note-content">
+                <h2>欢迎使用个人笔记网站</h2>
+                <p>请从左侧选择一篇笔记进行查看，或在notes文件夹中添加新的Markdown格式笔记。</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 个人笔记网站 | 托管于 <a href="https://pages.github.com/" target="_blank">GitHub Pages</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
